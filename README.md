@@ -235,14 +235,3 @@ Potential features for future development:
 - Appointment history
 - Export/Import functionality
 
-## 📄 License
-
-This project is private and for portfolio purposes.
-
-## 👤 Author
-
-Developed as a portfolio project demonstrating modern React development practices.
-
----
-
-**Note**: This application stores data locally in the browser. Clearing browser data will remove all appointments. For production use, consider integrating with a backend API and database.
