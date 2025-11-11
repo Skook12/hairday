@@ -52,7 +52,7 @@ export default function AppointmentList({
         <div className="flex justify-between p-6">
           <div className="flex gap-4">
             <Text as="h3" variant="text-md">
-              Nenhum agendamento para este período
+              No appointments available for this period.
             </Text>
           </div>
         </div>

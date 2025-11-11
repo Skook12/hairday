@@ -49,10 +49,10 @@ export default function Appointment() {
         <div className="flex justify-between">
           <div>
             <Text as="h1" variant="title-lg">
-              Sua agenda
+              Your schedule
             </Text>
             <Text as="h3" className="mt-2">
-              Consulte os seus cortes de cabelo agendados por dia
+              Check your scheduled haircuts by day.
             </Text>
           </div>
           <Input

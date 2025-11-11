@@ -59,14 +59,14 @@ export default function Sidebar() {
       <Container className="basis-1/3 bg-gray-700 p-25 rounded-xl">
         <form ref={formRef} onSubmit={handleSubmit}>
           <Text as="h1" variant="title-lg">
-            Agende um atendimento
+            Schedule a service
           </Text>
           <Text as="h3" className="mt-2">
-            Selecione data, horário e informe o nome do cliente para criar o
-            agendamento
+            Select the date, time, and enter the client's name to create the
+            appointment.
           </Text>
           <Text as="h2" variant="title-md" className=" mt-6">
-            Data
+            Date
           </Text>
           <Input
             icon={CalendarIcon}
@@ -79,7 +79,7 @@ export default function Sidebar() {
             Horários
           </Text>
           <TimeSlotGroup
-            title="Manhã"
+            title="Morning"
             times={morningSlots}
             selectedTime={selectedTime}
             bookedTimes={bookedTimes}
@@ -88,7 +88,7 @@ export default function Sidebar() {
           />
 
           <TimeSlotGroup
-            title="Tarde"
+            title="Afternoon"
             times={afternoonSlots}
             selectedTime={selectedTime}
             bookedTimes={bookedTimes}
@@ -97,7 +97,7 @@ export default function Sidebar() {
           />
 
           <TimeSlotGroup
-            title="Noite"
+            title="Night"
             times={eveningSlots}
             selectedTime={selectedTime}
             bookedTimes={bookedTimes}
@@ -120,7 +120,7 @@ export default function Sidebar() {
             className="mt-8"
             disabled={!date || customer === "" || !selectedTime}
           >
-            AGENDAR
+            Save
           </Button>
         </form>
       </Container>
